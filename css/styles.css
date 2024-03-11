@@ -2,6 +2,8 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: white;
 }
-.accent { color: #4D5AE5;
+.header-logo { color: #2E2F42;
 
 }
+
+.accent  { color: #4D5AE5;}
