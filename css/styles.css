@@ -3,7 +3,14 @@ body {
     background-color: white;
 }
 .header-logo { color: #2E2F42;
+    font-family: 'Roboto' sans-serif;
 
 }
 
-.accent  { color: #4D5AE5;}
+.accent  { color: #4D5AE5;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21;
+    letter-spacing: 3%;
+}
