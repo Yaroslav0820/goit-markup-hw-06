@@ -1,4 +1,6 @@
 body {
+    font-family: 'Roboto', sans-serif;
+    text-decoration-color: #434455;
     background-color: white;
 }
 ul {
@@ -10,41 +12,45 @@ a {
 .page-header {
     background-color: #E7E9FC;
 }
-.header-logo { color: #2E2F42;
+.header-logo { color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 21;
-    letter-spacing: 3%;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
 }
-.accent  { color: #4D5AE5;
+.accent  { color: #2E2F42;
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 21;
-    letter-spacing: 3%;  
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
 }
 .link-page{ 
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 24;
-    letter-spacing: 2%;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
     color: #2E2F42;
+}
+.link-page:hover,
+.link-page:focus {
+    color: #404bbf ;
 }
 .contacts .link-contact {
     color: #434455;
 }
 .link-contact  { 
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 24;
-    letter-spacing: 2%;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+.link-contact:hover,
+.link-contact:focus {
+    color: #404bbf ;
 }
 .ferst-page {
     background-color: #2E2F42;
@@ -69,6 +75,11 @@ button {
     line-height: 24px;
     letter-spacing: 4%;
     text-align: center;
+    cursor: pointer;
+}
+button:hover,
+button:focus {
+    background-color: #404BBF;
 }
 .second-title {
     font-family: 'Roboto', sans-serif;
@@ -97,7 +108,9 @@ button {
     text-align: left;
 }
 .third-page { background-color: #F4F4FD;
-
+}
+.list {
+    background-color: white;
 }
 .third-title {
     font-family: 'Roboto', sans-serif;
@@ -120,7 +133,15 @@ button {
 footer {
     background-color: #2E2F42;
 }
-.footer a { color: #F4F4FD;
+.accent-footer  { color: #F4F4FD;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
+}
+.footer a { color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
