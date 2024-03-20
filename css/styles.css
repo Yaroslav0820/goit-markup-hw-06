@@ -1,37 +1,49 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto','Raleway', sans-serif;
     background-color: white;
 }
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.page-header {
+    background-color: #E7E9FC;
+}
 .header-logo { color: #2E2F42;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 21;
     letter-spacing: 3%
 }
-
 .accent  { color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 21;
-    letter-spacing: 3%;
+    letter-spacing: 3%;  
 }
-.link-page .link { 
+.link-page{ 
     font-size: 16px;
+    font-style: normal;
     font-weight: 500;
     line-height: 24;
     letter-spacing: 2%;
-}
-.link {
     color: #2E2F42;
 }
-.link-contact .link  { color: #434455;
+.contacts .link-contact {
+    color: #434455;
+}
+.link-contact  { 
     font-size: 16px;
+    font-style: normal;
     font-weight: 400;
     line-height: 24;
     letter-spacing: 2%;
-
 }
 .ferst-page {
     background-color: #2E2F42;
@@ -42,7 +54,7 @@ body {
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 2%;
-    align-self: center;
+    text-align: center;
 }
 button {
     background-color: #4D5AE5;
@@ -54,6 +66,7 @@ box-shadow: 0, 4, 4, #000000;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 4%;
+    text-align: center;
 }
 .second-title {
     color: #2E2F42;
@@ -61,26 +74,52 @@ box-shadow: 0, 4, 4, #000000;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 2%;
-    align-self: center;
+    text-align: center;
 }
-.third-title { color: #2E2F42;
+.third-title-left { color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 2%;
+    text-align: left;
 }
-.third-page { background-color: #F4F4FD;
-
-}
-p {
+.paragraph-left {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 2%;
+    text-align: left;
+}
+.third-page { background-color: #F4F4FD;
+
+}
+.third-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: center;
+}
+.paragraph-center {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: center;
 }
 footer {
     background-color: #2E2F42;
+}
+.paragraph-footer {
+    color: #F4F4FD;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: left;
 }
 .footer a{ color: #F4F4FD;
     font-size: 18px;
@@ -88,11 +127,4 @@ footer {
     font-weight: bold;
     line-height: 21;
     letter-spacing: 3%
-}
-.footer p {
-    color: #F4F4FD;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 2%;
 }
