@@ -113,18 +113,19 @@ box-shadow: 0, 4, 4, #000000;
 footer {
     background-color: #2E2F42;
 }
-.paragraph-footer {
+.footer a { color: #F4F4FD;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21;
+    letter-spacing: 3%
+}
+.footer p {
     color: #F4F4FD;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 2%;
     text-align: left;
-}
-.footer a{ color: #F4F4FD;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 21;
-    letter-spacing: 3%
 }
