@@ -58,10 +58,10 @@ a {
 .ferst-title {
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
-    font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 2%;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 button {
@@ -70,11 +70,10 @@ button {
 .button-ferst {
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
-    font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 4%;
-    text-align: center;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 button:hover,
@@ -84,27 +83,25 @@ button:focus {
 .second-title {
     font-family: 'Roboto', sans-serif;
     color: #2E2F42;
-    font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 2%;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 .third-title-left { color: #2E2F42;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 2%;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
     text-align: left;
 }
 .paragraph-left {
-    font-family: 'Roboto', sans-serif;
     color: #434455;
-    font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 2%;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
     text-align: left;
 }
 .third-page { background-color: #F4F4FD;
@@ -113,21 +110,19 @@ button:focus {
     background-color: white;
 }
 .third-title {
-    font-family: 'Roboto', sans-serif;
     color: #2E2F42;
-    font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 2%;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 .paragraph-center {
-    font-family: 'Roboto', sans-serif;
     color: #434455;
-    font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 2%;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 footer {
@@ -150,7 +145,6 @@ footer {
     letter-spacing: 3%;
 }
 .footer p {
-    font-family: 'Roboto', sans-serif;
     color: #F4F4FD;
     font-size: 16px;
     font-weight: 400;
