@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    text-decoration-color: #434455;
+    color: #434455;
     background-color: white;
 }
 ul {
@@ -39,6 +39,9 @@ a {
 .link-page:focus {
     color: #404bbf ;
 }
+.address {
+    font-style: normal;
+}
 .contacts .link-contact {
     color: #434455;
 }
@@ -60,7 +63,7 @@ a {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
-    line-height: 107%;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -85,9 +88,10 @@ button:focus {
     color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
-    line-height: 111%;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 .third-title-left { color: #2E2F42;
     font-weight: 500;
@@ -132,9 +136,9 @@ footer {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 .footer a { color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
@@ -142,13 +146,13 @@ footer {
     font-style: normal;
     font-weight: bold;
     line-height: 21;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
 .footer p {
     color: #F4F4FD;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-align: left;
 }
