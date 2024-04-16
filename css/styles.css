@@ -27,6 +27,10 @@ a {
     text-decoration: none;
 }
 
+img{
+    display: block;
+}
+
 
 /* --------------------  Header  ------------------------- */
 
@@ -125,7 +129,7 @@ a {
     padding-bottom: 120px;
     
 }
-.fon {
+.fon-ferst {
     background-color: #2E2F42;
 }
 
@@ -174,6 +178,17 @@ button:focus {
     background-color: #404BBF;
 }
 
+
+
+
+
+/* --------------  Second-page  -------------------- */
+
+
+
+
+
+
 .second-page {
     padding-bottom: 120px;
 }
@@ -186,7 +201,7 @@ button:focus {
 .link-paragraph{
    width: calc((100% - 3 * 24px) / 4);
 }
-.second-title {
+.item-hidden {
         position: absolute;
         width: 1px;
         height: 1px;
@@ -218,13 +233,49 @@ button:focus {
     text-align: left;
 }
 
+
+
+/* --------------  Third-page  -------------------- */
+
+
+
 .third-page { 
-    background-color: #F4F4FD;
     padding-bottom: 120px;
 }
 
+.fon-third{
+    background-color: #F4F4FD;
+}
+
+.third-content {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+.card-list {
+    display: flex;
+    gap: 24px;
+}
+
+
 .list {
     background-color: white;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.card-text {
+    padding: 32px 16px;
+}
+
+.second-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 72px;
 }
 
 .third-title {
@@ -245,12 +296,50 @@ button:focus {
     text-align: center;
 }
 
+
+
+/* --------------  Fourth-page  -------------------- */
+
+
+
+
 .fourth-page{
     padding-bottom: 120px;
 }
 
+.fourth-link{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
+.card-fourth {
+    width: calc((100% - 2 * 24px) / 3);
+}
+
+.fourth-content{
+    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    padding: 32px 16px;
+}
+
+
+
+
+
+/* --------------  Footer  -------------------- */
+
 footer {
     background-color: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .accent-footer  { color: #F4F4FD;
@@ -278,4 +367,5 @@ footer {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
+    max-width: 264px;
 }
