@@ -82,6 +82,7 @@ button:focus {
 .address-link{
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .page-header {
@@ -122,7 +123,7 @@ button:focus {
 
 .address {
     font-style: normal;
-    padding: 24px 0;
+    
     
 }
 
@@ -150,12 +151,11 @@ button:focus {
 
 
 .ferst-page {
-    padding-bottom: 120px;
-    
+    background-color: #2e2f42;
+    text-align: center;
+    padding: 188px 0;
 }
-.fon-ferst {
-    background-color: #2E2F42;
-}
+
 
 .ferst-title {
     font-family: 'Roboto', sans-serif;
@@ -166,27 +166,31 @@ button:focus {
     letter-spacing: 0.02em;
     text-align: center;
     width: 496px;
-    padding-top: 188px;
     margin: 0 auto;
+    margin-bottom: 48px;
     }
 
 
-.button-order{
-    padding-bottom: 188px;
-}
 
 .button-ferst {
-    font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.04em;
-    margin-top: 48px;
-    margin-left: auto;
-    margin-right: auto;
+    color: #fff;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
    
 
 }
@@ -205,7 +209,7 @@ button:focus {
 
 
 .second-page {
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .second-link{
@@ -255,29 +259,26 @@ button:focus {
 
 
 .third-page { 
-    padding-bottom: 120px;
-}
-
-.fon-third{
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
-.third-content {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 
 
 .card-list {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 24px;
 }
 
 
 .list {
-    background-color: white;
-    border-radius: 0 0 4px 4px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background-color: #FFFFFF;  
+    padding-left: 0; 
+    margin: 0; 
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px; 
 }
 
 .card-text {
@@ -319,7 +320,7 @@ button:focus {
 
 
 .fourth-page{
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .fourth-link{
@@ -346,16 +347,13 @@ button:focus {
 /* --------------  Footer  -------------------- */
 
 footer {
-    background-color: #2E2F42;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    background-color: #2e2f42;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 100px 0;
 }
 
-.footer-content {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
 
 .accent-footer  { color: #F4F4FD;
     font-family: 'Raleway', sans-serif;
@@ -364,6 +362,9 @@ footer {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+.logo-footer{
+    margin-bottom: 16px;
 }
 
 .footer a { color: #4D5AE5;
