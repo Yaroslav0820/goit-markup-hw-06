@@ -25,6 +25,7 @@ h6 {
 
 a {
     text-decoration: none;
+    display: block; 
 }
 
 img{
@@ -63,6 +64,7 @@ h1 {
 .flex{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .navigation{
     display: flex;
@@ -73,9 +75,7 @@ h1 {
 .header-menu-list{
     display: flex;
     gap: 40px;
-    padding: 24px 0px;
 }
-
 
 
 .page-header {
