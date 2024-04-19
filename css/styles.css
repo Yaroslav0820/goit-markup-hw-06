@@ -73,7 +73,6 @@ h1 {
 .header-menu-list{
     display: flex;
     gap: 40px;
-    padding: 24px 0;
     
 }
 
@@ -95,7 +94,7 @@ h1 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    padding: 24px 0
+
 }
 
 .accent  { color: #2E2F42;
@@ -255,21 +254,29 @@ h1 {
 
 /* --------------  Third-page  -------------------- */
 
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 72px;                                                                                                                                                                                                                                                                                                                                                                                                                          ;
+}
 
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
 .third-page { 
     background-color: #F4F4FD;
     padding: 120px 0;
 }
-
-
-
-.card-list {
-    display: flex;
-    gap: 24px;
-}
-
-
 
 .list {
     background-color: #FFFFFF;  
@@ -310,6 +317,15 @@ h1 {
     letter-spacing: 0.02em;
     text-align: center;
 }
+
+.card-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+
 
 
 
