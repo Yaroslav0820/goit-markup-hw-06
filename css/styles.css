@@ -76,11 +76,7 @@ h1 {
     padding: 24px 0;
 }
 
-.address-link{
-    display: flex;
-    gap: 40px;
-    padding: 24px 0;
-}
+
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
