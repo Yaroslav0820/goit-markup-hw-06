@@ -39,18 +39,15 @@ header {
     margin: 0px;
 }
 
-button {
-    background-color: #4D5AE5;
-    cursor: pointer;
-    display: block;
-    min-width: 169px;
-    height: 56px;
-   
-}
 
 button:hover,
 button:focus {
     background-color: #404BBF;
+}
+
+
+h1 {
+    max-width: 496px; 
 }
 
 /* --------------------  Header  ------------------------- */
@@ -76,6 +73,7 @@ button:focus {
 .header-menu-list{
     display: flex;
     gap: 40px;
+    padding: 24px 0;
     
 }
 
@@ -152,7 +150,7 @@ button:focus {
 
 .ferst-page {
     background-color: #2e2f42;
-    text-align: center;
+    /* text-align: center; */
     padding: 188px 0;
 }
 
@@ -165,7 +163,6 @@ button:focus {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
     }
@@ -191,7 +188,8 @@ button:focus {
     border-radius: 4px;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
-   
+    background-color: #4D5AE5;
+    display: block;
 
 }
 
