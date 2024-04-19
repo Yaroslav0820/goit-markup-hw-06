@@ -67,13 +67,13 @@ h1 {
 .navigation{
     display: flex;
     align-items: center;
-    padding: 24px 0;
+    
 }
 
 .header-menu-list{
     display: flex;
     gap: 40px;
-    
+    padding: 24px 0;
 }
 
 .address-link{
@@ -94,7 +94,7 @@ h1 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-
+    padding: 24px 0;
 }
 
 .accent  { color: #2E2F42;
