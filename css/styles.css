@@ -95,6 +95,7 @@ h1 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    padding: 24px 0
 }
 
 .accent  { color: #2E2F42;
@@ -265,10 +266,9 @@ h1 {
 
 .card-list {
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 24px;
 }
+
 
 
 .list {
@@ -280,7 +280,7 @@ h1 {
 }
 
 .card-text {
-    padding: 32px 16px;
+    padding: 32px 0px;
 }
 
 .second-title {
@@ -299,6 +299,7 @@ h1 {
     line-height: 120%;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .paragraph-center {
@@ -363,6 +364,7 @@ footer {
 }
 .logo-footer{
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .footer a { color: #4D5AE5;
