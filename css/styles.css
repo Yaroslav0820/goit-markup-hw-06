@@ -54,10 +54,10 @@ h1 {
 /* --------------------  Header  ------------------------- */
 
 .header {
-    border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px solid #E7E9FC;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-     0px 1px 1px rgba(46, 47, 66, 0.16),
-      0px 1px 6px rgba(46, 47, 66, 0.08);
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 
 }
 
@@ -114,14 +114,39 @@ h1 {
 }
 
 .link-page {
-    color: #404bbf;
+    color: #2e2f42;;
     padding-top: 24px;
     padding-bottom: 24px;
     display: block;
-    position: relative;
 }
 
 
+.link-page.studio {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    color: #404bbf;
+}
+
+.link-page.studio::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+
+}
+
+.link-page:hover,
+.link-page:focus {
+    color: #404BBF;
+}
+
+/* 
 .link-page::after {
     content: '';
     position: absolute;
@@ -146,30 +171,31 @@ h1 {
 .link-page:hover::after,
 .link-page:focus::after {
     background-color: #404bbf; ;
-}
+} */
 .address {
     font-style: normal;
-    
+    margin-left: auto;
     
 }
 
-.contacts .link-contact {
-    color: #434455;
-}
+
 
 .link-contact  { 
-    font-weight: 400;
+    color: #434455;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
-    line-height: 150%;
+    font-weight: 400;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 24px 0px;
-
+    text-align: left;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-contact:hover,
-.link-contact:focus {
+
+.link-contact.email:hover,
+.link-contact.phone-number:focus {
     color: #404bbf ;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 
