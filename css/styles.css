@@ -182,19 +182,20 @@ h1 {
 
 
 .ferst-page {
-    background-color:#2e2f42;
+    background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
     margin: 0 auto;
     max-width: 1440px;
-    background-image: linear-gradient(    
-    rgba(46, 47, 66, 0.7), 
-    rgba(46, 47, 66, 0.7)), 
-    url(../images/first-screen.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/first-screen.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: #ffffff;
 }
+
 
 
 .ferst-title {
