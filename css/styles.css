@@ -65,11 +65,14 @@ h1 {
 /* --------------------  Header  ------------------------- */
 
 .header {
-    border-bottom: 1px solid #E7E9FC;
+    border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
+
 }
+
+
 
 .header-container {
     display: flex;
@@ -77,48 +80,70 @@ h1 {
     
 }
 
-.logo {
-    color: #4d5ae5;
-    font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17 ;
-    letter-spacing: 0.03em;
-    text-align: left;
-    margin-right: 76px;
-}
-.accent {
-    color: #2E2F42;
-}
-
-.navigation {
-    display: flex;
+.nav {
     align-items: center;
-
+    display: flex;
+    
 }
 
-.nav-list {
+.header-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+    
+}
+
+.header-menu-list {
     display: flex;
     gap: 40px;
 }
 
-
-.nav-iteam {
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+.header-address {
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
 }
 
-.nav-iteam-link.studio {
+.header-address-link {
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+}
+
+
+.header-menu-list {
+    margin: 0 auto;
+    padding-left: 0;
+
+}
+
+.header-title .accent {
+    color: #2e2f42;
+    font-family: "Raleway", sans-serif;
+}
+
+
+.header-menu-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    
+}
+
+.header-menu-link.studio {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     color: #404bbf;
 }
 
-.nav-iteam-link.studio::after {
+.header-menu-link.studio::after{
     content: '';
     position: absolute;
     left: 0;
@@ -129,50 +154,41 @@ h1 {
     border-radius: 4px;
     background-color: #404bbf;
     border-radius: 2px;
+    
+} 
 
-}
-
-.nav-iteam-link {
+.header-menu-link {
     color: #2e2f42;
     padding-top: 24px;
     padding-bottom: 24px;
     display: block;
 }
-
-.nav-iteam-link:hover,
-.nav-iteam-link:focus {
-    color: #404BBF;
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: #404bbf;
 }
 
-
-.address {
+.header-address {
     font-style: normal;
-    margin-left: auto;
 }
 
-.address-list{
-    display: flex;
-    gap: 40px;
-   
-}
-.address-iteam{
-    color: #434455;
-    font-family: "Roboto", sans-serif;
+
+.header-address-link {
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: left;
+    color: #434455;
+    
+}
+
+.header-address-text:hover,
+.header-address-text:focus {
+    color:#404BBF;
+}
+
+.header-address-text {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.phone-number{
-    color: inherit;
-}
-
-.address-iteam.email:hover ,
-.phone-number:hover{
-    color: #404BBF;
+    color: #434455;
 }
 
 
