@@ -143,15 +143,15 @@ h1 {
 }
 
 .header-menu-link.current::after {
-content: "";
-position: absolute;
-left: 0;
-bottom: -1px;
-height: 4px;
-background-color: #fff;
-border-radius: 2px;
-width: 100%;
-} 
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    width: 100%;
+    }
 
 .header-menu-link {
     color: #2e2f42;
@@ -165,10 +165,10 @@ width: 100%;
     color: #404bbf;
 }
 
-.header-menu-link.current:hover::after,
+/* .header-menu-link.current:hover::after,
 .header-menu-link.current:focus:after{
     background-color: #404bbf;
-}
+} */
 
 .header-address {
     font-style: normal;
