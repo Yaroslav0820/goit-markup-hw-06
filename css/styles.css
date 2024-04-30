@@ -57,6 +57,7 @@ body {
   .header-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 16px;
@@ -195,7 +196,6 @@ body {
     background-color: transparent;
     cursor: pointer;
     border: none;
-    position: absolute;
     right: 0;
   }
   
@@ -295,6 +295,7 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
     transition: color cubic-bezier(0.4, 0, 0.2, 1);
+    margin-top: 24px;
   }
   
   .address-contacts-mobile {
@@ -311,13 +312,12 @@ body {
   }
   
   .social-media-mob {
-    width: 280px;
-    height: 40px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 40px;
     margin-left: 0;
+    margin-top: 48px;
   }
 
 
@@ -336,7 +336,7 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office.jpg);
+      url(../images/people-office@2x.jpg);
     max-width: 762px;
     background-repeat: no-repeat;
     background-position: center;
@@ -354,7 +354,7 @@ body {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-office@2x.jpg);
+        url(../images/people-office.jpg);
     }
   }
   
@@ -369,9 +369,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 72px;
-    padding-bottom: 32px;
     width: 216px;
-    height: 160px;
     word-wrap: break-word;
   }
   
@@ -438,7 +436,7 @@ body {
   .text-description {
     font-size: 16px;
     line-height: 1.5;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 0.02em;
     color: #434455;
   }
@@ -473,13 +471,13 @@ body {
   
   .cards {
     background-color: #fff;
-    width: calc((100% - 72px) / 4);
+    /* width: calc((100% - 72px) / 4); */
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
       0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    padding: 0px 0px 32px 0px;
+    /* padding: 0px 0px 32px 0px;
     width: 264px;
-    height: 428px;
+    height: 428px; */
   }
   
   .cards-list {
@@ -622,7 +620,6 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
-    padding-top: 16px;
     margin-bottom: 16px;
   }
   
@@ -712,8 +709,6 @@ body {
   .form {
     display: flex;
     flex-direction: column;
-    width: 288px;
-    height: 136px;
     gap: 24px;
   }
   
@@ -1080,6 +1075,7 @@ body {
     }
     .header-container {
       padding-bottom: 0;
+      padding-top: 0;
     }
     .open-menu-btn {
       display: none;
@@ -1087,25 +1083,30 @@ body {
     .nav-list {
       display: flex;
       margin: 0 auto;
-      width: 50%;
     }
     .address {
       display: flex;
     }
     .address-list {
+      display: flex;
+      flex-direction: column;
       gap: 12px;
     }
+
+
     .address-link {
       font-weight: 400;
       font-size: 12px;
       line-height: 1.7;
       letter-spacing: 0.04em;
+      
     }
+
     .main-title {
       font-weight: 700;
       font-size: 56px;
       width: 496px;
-      height: 120px;
+      margin-bottom: 36px;
       word-wrap: break-word;
     }
     .features-list {
@@ -1140,12 +1141,10 @@ body {
     .overlay-container {
       width: auto;
     }
-    .footer-bg {
-      padding-bottom: 0;
-    }
+    
     .container-footer {
       width: 768px;
-      height: 456px;
+     padding: 0 108px;
     }
     .footer-logo {
       padding-top: 0;
@@ -1155,10 +1154,8 @@ body {
       width: 264px;
     }
     .container-footer-logo {
-      margin-left: 108px;
       display: flex;
       flex-direction: column;
-      gap: 16px;
       text-align: start;
       width: 264px;
     }
@@ -1181,11 +1178,11 @@ body {
       text-align: justify;
     }
     .container-footer-email-input {
-      width: 453px;
-      height: 80px;
+      /* width: 453px;
+      height: 80px; */
       text-align: justify;
-      margin-left: 108px;
-      margin-right: 207px;
+      /* margin-left: 108px;
+      margin-right: 207px; */
     }
     .form {
       display: flex;
@@ -1197,6 +1194,10 @@ body {
       margin-bottom: 0px;
       max-width: 264px;
       margin-right: 24px;
+    }
+    
+    .form-button {
+      margin: 0;
     }
    
     .backdrop-tablet.is-open {
@@ -1225,8 +1226,8 @@ body {
         0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     }
     .header-container {
-      margin-left: 156px;
-      margin-right: 156px;
+      padding-left: 156px;
+      padding-right: 156px;
       padding-top: 0;
     }
     .header-logo {
@@ -1313,6 +1314,9 @@ body {
       list-style: none;
       padding: 0;
       margin: 0;
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
     }
     .address-contacts {
       font-size: 16px;
@@ -1360,12 +1364,18 @@ body {
       padding-top: 188px;
       padding-bottom: 188px;
     }
+
+    .section{
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
     .main-title {
-      font-weight: 700;
+      /* font-weight: 700;
       font-size: 56px;
       width: 496px;
       height: 120px;
-      word-wrap: break-word;
+      word-wrap: break-word; */
+      margin-bottom: 48px;
     }
     .features-list {
       display: flex;
@@ -1403,6 +1413,7 @@ body {
       padding-left: 0;
       margin: 0;
       transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: none;
     }
     .portfolio-cards:hover {
       box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -1528,9 +1539,9 @@ body {
       margin-bottom: 16px;
     }
     .container-footer-email-input {
-      max-width: 453px;
+      /* max-width: 453px;
       max-height: 80px;
-      margin-left: 80px;
+      margin-left: 80px; */
       margin-right: 0;
     }
     .backdrop {
